@@ -17,10 +17,6 @@ while i <= steps do
   puts "#{num1}*#{num2}=#{num1*num2}"
   puts "#{num1}/#{num2}=#{num1/num2}"
   i += 1
-
-  if i > steps
-  puts "処理を終了します"
-  break
-  end
-
 end
+
+  puts "処理を終了します"
